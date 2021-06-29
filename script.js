@@ -38,7 +38,7 @@ function saiu2(){
 
 function clicou3(){
     let img = document.getElementById("casal");
-    img.style.width = "500px"          /*testeeee*////
+    img.style.width = "500px"          /*testeeee*//// 
 }
 function saiu3(){
     let img = document.getElementById("casal");
