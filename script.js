@@ -20,17 +20,18 @@ function showSlides() {
 /********************************************************** */
 function clicou1(){
     var img = document.getElementById("ges");
-    img.style.width = "500px"          /*testeeee*////
+    img.style.width = "500px"  
+           /*testeeee*////
 }
 function saiu1(){
     let img = document.getElementById("ges");
     img.style.width = "350px"
 }
-
 function clicou2(){
     let img = document.getElementById("pre");
     img.style.width = "500px"          /*testeeee*////
 }
+
 function saiu2(){
     let img = document.getElementById("pre");
     img.style.width = "350px"
@@ -52,3 +53,18 @@ function saiu4(){
     let img = document.getElementById("ani");
     img.style.width = "350px"
 }
+/*************************/
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+
